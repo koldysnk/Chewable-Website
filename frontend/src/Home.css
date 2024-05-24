@@ -1,3 +1,31 @@
 .DocumentBox{
     padding: 2em;
+    padding-top: 5vh;
+}
+
+.Home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* each column takes 1 fraction of the available space */
+    position: fixed;
+    place-items: center;
+    width: 100vw;
+    height: 5vh;
+    background-color: lightgrey;
+    box-shadow: 0px 3px 20px 0px lightgray;
+    box-sizing: border-box;
+    padding: 2.5% auto;
+}
+
+button{
+    flex-shrink: 1;
+    width: 30%;
+    display: block;
+    min-width: fit-content;
+}
+
+.buttonLink{
+    text-decoration: none;
+}
+.buttonLink:hover{
+    cursor: default;
 }

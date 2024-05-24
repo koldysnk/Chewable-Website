@@ -9,7 +9,7 @@ export function Terms(props) {
     return (
         <div id="TermsOfService" className="DocumentBox">
             <h1>TERMS OF SERVICE</h1>
-            <p>Last updated May 19, 2024</p>
+            <p>Last updated: May 19, 2024</p>
             <h2>AGREEMENT TO OUR LEGAL TERMS</h2>
             <p>We are Chewable Entertainment ("Company," "we," "us," "our").</p>
             <p>We operate the mobile application Chewable Enertainment (the "App"), as well as any other related products and services that refer or link to these legal terms (the "Legal Terms") (collectively, the "Services").</p>
